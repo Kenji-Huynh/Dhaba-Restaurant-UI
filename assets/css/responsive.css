@@ -1,0 +1,500 @@
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .header {
+    padding: 15px 0 60px;
+  }
+
+  .hero-content h1 {
+    font-size: 30px;
+  }
+
+  .features li {
+    font-size: 14px;
+  }
+
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .menu-item {
+    max-width: 100%;
+  }
+
+  .chefs-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .chefs-section {
+    padding: 60px 0;
+  }
+
+  .countdown-wrapper {
+    flex-direction: column;
+  }
+
+  .countdown-image,
+  .countdown-content {
+    flex: 0 0 100%;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .countdown-image {
+    margin-bottom: 30px;
+  }
+
+  .countdown-content .section-tagline,
+  .countdown-content .section-title,
+  .countdown-content .section-divider {
+    text-align: center;
+  }
+
+  .countdown-content .section-divider {
+    margin: 15px auto 25px;
+  }
+
+  .countdown-labels,
+  .countdown-timer {
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .countdown-image img {
+    height: auto;
+    width: 100%;
+  }
+
+  .subscription-form {
+    transform: translateY(
+      -40px
+    ); /* Điều chỉnh lại vị trí trên màn hình tablet */
+    margin-bottom: 40px;
+  }
+
+  .testimonials-container {
+    justify-content: center;
+  }
+
+  .testimonial-item {
+    flex: 0 0 45%;
+    margin: 0 10px 40px;
+  }
+
+  .help-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .help-text {
+    flex: 0 0 100%;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .help-contact {
+    flex: 0 0 100%;
+    align-items: center;
+  }
+
+  .hotline {
+    text-align: center;
+  }
+
+  .phone-number {
+    justify-content: center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-info,
+  .footer-contact,
+  .footer-connect {
+    flex: 0 0 100%;
+    margin-bottom: 30px;
+    padding-left: 0;
+  }
+
+  .footer-connect {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 0 40px;
+  }
+
+  .logo img {
+    max-width: 150px;
+  }
+
+  .hero-content h1 {
+    font-size: 24px;
+  }
+
+  .cta-button {
+    padding: 12px 25px;
+    font-size: 14px;
+  }
+
+  .features-section {
+    padding: 50px 0;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .section-title {
+    font-size: 26px;
+  }
+
+  .feature-box {
+    padding: 20px;
+  }
+
+  .icon-container {
+    width: 60px;
+    height: 60px;
+  }
+
+  .icon-container img {
+    max-width: 35px;
+    max-height: 35px;
+  }
+
+  .menu-bg {
+    padding: 50px 0;
+  }
+
+  .menu-item {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .menu-image,
+  .menu-overlay {
+    width: 100%;
+    height: 200px;
+  }
+
+  .menu-content {
+    padding: 15px;
+  }
+
+  .chefs-section {
+    padding: 50px 0;
+  }
+
+  .chefs-grid {
+    gap: 20px;
+  }
+
+  .chef-card {
+    padding-bottom: 10px;
+  }
+
+  .chef-name {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .chef-info::after {
+    bottom: -12px;
+  }
+
+  .countdown-box {
+    min-width: 60px;
+    padding: 10px;
+  }
+
+  .countdown-box span {
+    font-size: 28px;
+  }
+
+  .countdown-labels span {
+    font-size: 12px;
+  }
+
+  .subscription-form h4 {
+    font-size: 18px;
+  }
+
+  .countdown-box p {
+    font-size: 12px;
+  }
+
+  .countdown-desc {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .countdown-timer {
+    justify-content: center;
+  }
+
+  .countdown-button {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .countdown-info {
+    padding: 30px 20px;
+  }
+
+  .subscription-form {
+    padding: 20px;
+    transform: translateY(
+      -20px
+    ); /* Điều chỉnh lại vị trí trên màn hình điện thoại */
+  }
+
+  .testimonial-item {
+    flex: 0 0 100%;
+    max-width: 320px;
+  }
+
+  .testimonial-avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .testimonial-avatar-container {
+    width: 100px;
+    height: 100px;
+  }
+
+  .help-text h2 {
+    font-size: 30px;
+  }
+
+  .phone-number {
+    font-size: 24px;
+  }
+
+  .contact-button {
+    padding: 12px 30px;
+    font-size: 14px;
+  }
+
+  .falling-object {
+    opacity: 0.07; /* Giảm độ hiển thị trên mobile */
+  }
+
+  /* Giảm số lượng vật thể trên màn hình nhỏ */
+  .falling-object:nth-child(even) {
+    display: none;
+  }
+
+  .footer-section {
+    padding: 40px 0 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-links {
+    margin-top: 10px;
+  }
+
+  .social-media {
+    justify-content: center;
+  }
+
+  .footer-links a {
+    margin: 0 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 20px;
+  }
+
+  .features li {
+    justify-content: center;
+    font-size: 12px;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  .section-tagline {
+    font-size: 16px;
+  }
+
+  .feature-box h4 {
+    font-size: 16px;
+  }
+
+  .icon-container {
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon-container img {
+    max-width: 30px;
+    max-height: 30px;
+  }
+
+  .menu-item h4 {
+    font-size: 18px;
+  }
+
+  .menu-item p {
+    font-size: 13px;
+  }
+
+  .chefs-grid {
+    grid-template-columns: 1fr;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .chef-name {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .chef-info::after {
+    bottom: -10px;
+  }
+
+  .countdown-box {
+    min-width: 50px;
+    padding: 8px;
+    margin-right: 10px;
+  }
+
+  .countdown-box span {
+    font-size: 24px;
+  }
+
+  .countdown-labels span {
+    font-size: 10px;
+  }
+
+  .form-input,
+  .subscription-button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .countdown-box p {
+    font-size: 10px;
+  }
+
+  .testimonial-avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .testimonial-avatar-container {
+    width: 80px;
+    height: 80px;
+  }
+
+  .comment-icon {
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+  }
+
+  .testimonial-text {
+    font-size: 14px;
+  }
+
+  .help-bg {
+    padding: 40px 0;
+  }
+
+  .help-text h2 {
+    font-size: 26px;
+  }
+
+  .help-text p {
+    font-size: 14px;
+  }
+
+  .phone-number {
+    font-size: 20px;
+  }
+
+  .falling-objects-container {
+    opacity: 0.05; /* Giảm độ hiển thị hơn nữa trên màn hình rất nhỏ */
+  }
+
+  .social-link img {
+    max-width: 140px;
+  }
+
+  .footer-contact h3,
+  .footer-connect h3 {
+    font-size: 18px;
+  }
+
+  .contact-list li {
+    font-size: 14px;
+  }
+}
+
+/* Gallery Section Responsive */
+@media (max-width: 992px) {
+  .gallery-container {
+    justify-content: center;
+  }
+
+  .gallery-item {
+    flex: 0 0 calc(80% - 15px);
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-item {
+    flex: 0 0 100%;
+    max-width: 500px;
+    margin: 0 auto 30px;
+  }
+
+  .gallery-image-wrapper {
+    height: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .gallery-image-wrapper {
+    height: 200px;
+  }
+
+  .gallery-image-wrapper::before {
+    border-width: 0;
+  }
+
+  .gallery-image-wrapper:hover::before {
+    border-width: 5px;
+  }
+}
